@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="Stylesheet" type="text/css" href="/mywiki/static/css/style.css">
+    <link rel="Stylesheet" type="text/css" href="/mywiki/static/css/tango.css">
+    <link rel="shortcut icon" href="/mywiki/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/mywiki/favicon.ico" type="image/x-icon">
+    <link rel="alternate" type="application/atom+xml" href="atom.xml" title="Atom feed">
+    <title>用Jekyll搭建个人博客 - jiej's personal wiki</title>
+    <meta name="keywords" content="programme,machine learninig"/>
+    <meta name="description" content="jiej's personal online wiki website"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+
+  <body>
+    <div id="container">
+      
+<div id="header">
+  <div class="post-nav"><a href="/mywiki/">Home</a>&nbsp;&#187;&nbsp;<a href="/mywiki/#9 - installation">9 - installation</a>&nbsp;&#187;&nbsp;用Jekyll搭建个人博客
+    <span class="updated">Page Updated&nbsp;
+      2018-05-19 16:29:43 +0800
+    </span></div>
+</div>
+<div class="clearfix"></div>
+
+<div class="page_title">用Jekyll搭建个人博客</div>
+
+  <h2 id="_1">一、安装部分</h2>
+<h4 id="1-ruby">1. 安装Ruby</h4>
+<p>因为Jekyll基于Ruby开发</p>
+<p><code>brew install ruby</code></p>
+<h4 id="2-gem">2. 安装Gem</h4>
+<h6 id="gem">什么是Gem？</h6>
+<blockquote>
+<p>RubyGems是一个包管理框架，提供了ruby社区gem的托管服务，用于方便地下载、安装和使用ruby软件包。ruby软件包被称为gem，包含了ruby应用或库。</p>
+</blockquote>
+<p>一般Mac自带，没有的话去官网下载安装</p>
+<h4 id="3-bundle">3. 安装Bundle</h4>
+<p>依赖问题，具体未知</p>
+<p>安装完成，jekyll -v check 版本</p>
+<h2 id="_2">一、开始使用</h2>
+<h4 id="1">1. 本地博客</h4>
+<div class="hlcode"><pre><span class="n">jekyll</span> <span class="n">new</span> <span class="n">blog</span>  <span class="err">#</span> <span class="err">新建博客目录</span>
+<span class="n">cd</span> <span class="n">blog</span>
+<span class="n">jekyll</span> <span class="n">serve</span> <span class="err">#</span> <span class="err">启动博客</span>
+</pre></div>
+
+
+<p>本地访问地址：https:localhost:4000</p>
+<p>小插曲: jekyll serve报错<br />
+Error: Address already in use - bind(2)<br />
+原因是上次关闭时使用了control+z，应该是control+c；找到相应进程杀死，问题就解决啦。</p>
+<h4 id="2-github">2. Github托管</h4>
+    </div>
+    <div id="footer">
+      <span>
+        <p>Copyright © 2018 jiej.
+        Powered by <a href="http://simiki.org/" target="_blank">Simiki</a>.</p>
+        <p>Site Generated 2018-05-19 23:11:14</p>
+      </span>
+    </div>
+
+    
+    
+  </body>
+</html>
